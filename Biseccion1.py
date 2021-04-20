@@ -21,7 +21,7 @@ delta=(b-a)/float(N-1)
 
 #defino la funcion
 def funcion(x):
-	y=x**8+4*x**7-10
+	y=x**3+4*x**7-10
 	return y
 
 for i in range (N-1):
